@@ -10,6 +10,12 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// function area(l1, l2) {
+//   area = l1 * l2;
+//   return area;
+// }
+
+// console.log(area());
 
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
@@ -18,19 +24,41 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// function crazysum(n1, n2) {
+//   somma = n1 + n2;
+//   if (n1 === n2) {
+//     x = (n1 + n2) * 3;
+//   }
+//   return somma;
+// }
 
+// console.log(crazysum(1, 2));
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
  Deve inoltre tornare la differenza assoluta moltiplicata per tre qualora il numero fornito sia maggiore di 19.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// function crazyDiff(n1, n2) {
+//     Diff = n1 - 19;
+//     if (n1 > 19) {
+//       x = (n1 - 19) * 3;
+//       return Diff;
+//     }
+//   }
+//   console.log(crazyDiff(20));
 
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
  se n è uguale a 400.
-*/
-
+// */ function boundary(n) {
+//   if ((n >= 20 && n <= 100) || n === 400) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(boundary(30));
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
@@ -38,7 +66,9 @@ REGOLE
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
  ritornare la stringa originale senza alterarla.
 */
-
+function epify(stringa){
+    
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 6
