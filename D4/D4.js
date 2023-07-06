@@ -51,7 +51,7 @@ REGOLE
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
  se n è uguale a 400.
-// */ function boundary(n) {
+// */ //function boundary(n) {
 //   if ((n >= 20 && n <= 100) || n === 400) {
 //     return true;
 //   } else {
@@ -66,9 +66,14 @@ REGOLE
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
  ritornare la stringa originale senza alterarla.
 */
-function epify(stringa){
-    
+function epify(str) {
+  if (str.startWith("EPICODE")) {
+    return "str";
+  } else {
+    return "str" + "EPICODE";
+  }
 }
+console.log(epify("EPICODE"));
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 6
